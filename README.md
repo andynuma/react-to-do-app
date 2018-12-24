@@ -1,4 +1,2 @@
-# react-to-do-app
-Created with CodeSandbox
-
+## react-to-do-app
 React勉強用のToDoアプリ
