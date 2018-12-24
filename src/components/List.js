@@ -6,6 +6,19 @@ export class List extends React.Component {
   }
 
   render() {
-    return <div>List</div>;
+    const list = this.props.todos.map(todo => {
+      return (
+        <li>
+          #{todo.id} {todo.title}
+        </li>
+      );
+    });
+
+    return (
+      <div>
+        <h2>List</h2>
+        <ul>{list}</ul>
+      </div>
+    );
   }
 }
